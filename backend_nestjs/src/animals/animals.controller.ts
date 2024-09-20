@@ -22,10 +22,10 @@ export class AnimalsController {
     return this.animalsService.findOne(+id);
   }
 
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateAnimalDto: UpdateAnimalDto) {
-    return this.animalsService.update(+id, updateAnimalDto);
-  }
+  // @Patch(':id')
+  // update(@Param('id') id: string, @Body() updateAnimalDto: UpdateAnimalDto) {
+  //   return this.animalsService.update(+id, updateAnimalDto);
+  // }
 
   @Delete(':id')
   remove(@Param('id') id: string) {
