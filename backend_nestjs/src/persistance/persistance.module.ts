@@ -1,7 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config'; 
-import { AnimalsModule } from './animals/animals.module';
 
 @Module({
   imports: [
@@ -21,7 +20,6 @@ import { AnimalsModule } from './animals/animals.module';
         rejectUnauthorized: false, 
       },
     }),
-    AnimalsModule,
   ],
 })
 export class AppModule {}
