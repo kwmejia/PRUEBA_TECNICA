@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Entity(name = "Corral")
 @Data
 @Builder
@@ -17,6 +19,7 @@ public class CorralEntity {
     private Long id;
     @Column(nullable = false)
     private String name;
-
     private Integer capacity;
+    @OneToMany(mappedBy = "corral", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<AnimalEntity> animals;
 }
