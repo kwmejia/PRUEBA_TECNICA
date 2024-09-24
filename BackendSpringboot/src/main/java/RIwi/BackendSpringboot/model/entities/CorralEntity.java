@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity(name = "corral")
+@Entity(name = "Corral")
 @Data
 @Builder
 @AllArgsConstructor
