@@ -22,6 +22,7 @@ import { AnimalsModule } from './animals/animals.module';
       },
     }),
     AnimalsModule,
+
   ],
 })
 export class AppModule {}
