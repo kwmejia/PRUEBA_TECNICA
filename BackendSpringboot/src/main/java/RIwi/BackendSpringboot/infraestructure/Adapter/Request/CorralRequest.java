@@ -1,4 +1,4 @@
-package RIwi.BackendSpringboot.infraestrcuture.Adapter.Request;
+package RIwi.BackendSpringboot.infraestructure.Adapter.Request;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
