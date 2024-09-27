@@ -1,4 +1,4 @@
-package RIwi.BackendSpringboot.infraestrcuture.seeder;
+package RIwi.BackendSpringboot.infraestructure.seeder;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

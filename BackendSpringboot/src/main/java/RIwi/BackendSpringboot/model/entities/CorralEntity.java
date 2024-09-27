@@ -1,6 +1,7 @@
 package RIwi.BackendSpringboot.model.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -19,7 +20,12 @@ public class CorralEntity {
     private Long id;
     @Column(nullable = false)
     private String name;
+
+
+    @Min(value = 1, message = "Capacity must be at least 1")
+    @Column(nullable = false)
     private Integer capacity;
+    
     @OneToMany(mappedBy = "corral", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<AnimalEntity> animals;
 }

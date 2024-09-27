@@ -1,11 +1,12 @@
 package RIwi.BackendSpringboot.controllers;
-import RIwi.BackendSpringboot.infraestrcuture.Adapter.Request.AnimalRequest;
-import RIwi.BackendSpringboot.infraestrcuture.Adapter.Response.AnimalResponse;
-import RIwi.BackendSpringboot.infraestrcuture.service.AnimalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import RIwi.BackendSpringboot.infraestructure.Adapter.Request.AnimalRequest;
+import RIwi.BackendSpringboot.infraestructure.Adapter.Response.AnimalResponse;
+import RIwi.BackendSpringboot.services.services.AnimalService;
 
 import java.util.List;
 

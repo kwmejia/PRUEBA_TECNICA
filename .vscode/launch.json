@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BackendSpringbootApplication<BackendSpringboot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "RIwi.BackendSpringboot.BackendSpringbootApplication",
+            "projectName": "BackendSpringboot",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

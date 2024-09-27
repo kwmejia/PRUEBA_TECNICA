@@ -1,4 +1,4 @@
-package RIwi.BackendSpringboot.infraestrcuture.Adapter.Response;
+package RIwi.BackendSpringboot.infraestructure.Adapter.Response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

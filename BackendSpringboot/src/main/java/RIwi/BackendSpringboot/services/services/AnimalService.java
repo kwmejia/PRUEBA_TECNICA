@@ -1,6 +1,6 @@
-package RIwi.BackendSpringboot.infraestrcuture.service;
-import RIwi.BackendSpringboot.infraestrcuture.Adapter.Request.AnimalRequest;
-import RIwi.BackendSpringboot.infraestrcuture.Adapter.Response.AnimalResponse;
+package RIwi.BackendSpringboot.services.services;
+import RIwi.BackendSpringboot.infraestructure.Adapter.Request.AnimalRequest;
+import RIwi.BackendSpringboot.infraestructure.Adapter.Response.AnimalResponse;
 import RIwi.BackendSpringboot.model.entities.AnimalEntity;
 import RIwi.BackendSpringboot.model.entities.CorralEntity;
 import RIwi.BackendSpringboot.model.repositories.AnimalRepository;

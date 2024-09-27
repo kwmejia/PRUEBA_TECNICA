@@ -1,4 +1,4 @@
-package RIwi.BackendSpringboot.infraestrcuture.abstrac_service.Configuration;
+package RIwi.BackendSpringboot.infraestructure.Configuration;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
